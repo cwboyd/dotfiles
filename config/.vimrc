@@ -21,7 +21,26 @@ set tabstop=3
 set nowrap
 :" set ic
 set noic
-set transparency=10
+
+:" Just maximize the screen ... why is this impopssible to do cross platform.
+set lines=999 columns=999
+
+:" On GVIM, a little transparency, but not on VIM.
+if has("gui_running")
+   set transparency=10
+endif
+
+:" Old people ...
+
+if has("gui_running")
+  if has("gui_gtk2")
+    set guifont=Inconsolata\ 12
+  elseif has("gui_macvim")
+    set guifont=Menlo\ Regular:h15
+  elseif has("gui_win32")
+    set guifont=Consolas:h11:cANSI
+  endif
+endif
 
 :" Makes weird popup dialog that complains too much ;-)
 :" set verbose=1
