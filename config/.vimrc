@@ -22,6 +22,9 @@ set nowrap
 :" set ic
 set noic
 
+:" Keep swap files in user directory, not all over.
+set directory^=$HOME/vimswap//
+
 :" Just maximize the screen ... why is this impopssible to do cross platform.
 set lines=999 columns=999
 
