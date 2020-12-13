@@ -55,7 +55,12 @@ syntax on
 au BufNewFile,BufRead *.ipp   setf cpp
 
 :" Fix .md files ...
-au BufNewFile,BufRead *.md   setf markdown
+au BufNewFile,BufRead *.md    setf markdown
+
+:" Fix ruby-associated files
+au BufNewFile,BufRead *.racc  setf ruby
+au BufNewFile,BufRead *.rex   setf ruby
+
 
 set diffexpr=MyDiff()
 function MyDiff()
