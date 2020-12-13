@@ -13,11 +13,11 @@ set hlsearch
 set incsearch
 set lines=44
 set ruler
-set shiftwidth=3
+set shiftwidth=2
 set smarttab
 set splitright
 set splitbelow
-set tabstop=3
+set tabstop=2
 set nowrap
 :" set ic
 set noic
