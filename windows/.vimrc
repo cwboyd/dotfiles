@@ -28,11 +28,6 @@ set directory^=$HOME/vimswap//
 :" Just maximize the screen ... why is this impopssible to do cross platform.
 set lines=999 columns=999
 
-:" On GVIM, a little transparency, but not on VIM.
-if has("gui_running")
-   set transparency=10
-endif
-
 :" Old people ...
 
 if has("gui_running")
