@@ -5,5 +5,9 @@
     "explorer.confirmDelete": false,
     "editor.tabSize": 2,
     "editor.tabCompletion": "on",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "files.associations": {
+        "*.racc": "ruby",
+        "*.rex": "ruby"
+      }
 }
