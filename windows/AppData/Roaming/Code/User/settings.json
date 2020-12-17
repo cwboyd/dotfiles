@@ -1,0 +1,9 @@
+{
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+    "editor.suggest.showStatusBar": true,
+    "explorer.confirmDelete": false,
+    "editor.tabSize": 2,
+    "editor.tabCompletion": "on",
+    "files.trimTrailingWhitespace": true
+}
