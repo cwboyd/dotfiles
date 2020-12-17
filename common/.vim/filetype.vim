@@ -2,9 +2,12 @@
 augroup filetypedetect
 
   :" Ruby languages & DSLs
-  au BufNewFile,BufRead *.racc  setf ruby
-  au BufNewFile,BufRead *.rex   setf ruby
-  au BufNewFile,BufRead *.ru    setf ruby
+  au BufNewFile,BufRead *.racc      setf ruby
+  au BufNewFile,BufRead *.rex       setf ruby
+  au BufNewFile,BufRead *.ru        setf ruby
+  au BufNewFile,BufRead Gemfile     setf ruby
+  au BufNewFile,BufRead Rakefile    setf ruby
+  au BufNewFile,BufRead Vagrantfile setf ruby
 
   :" Markdown with *.md files
   au BufNewFile,BufRead *.md    setf markdown
