@@ -15,5 +15,8 @@ augroup filetypedetect
   :" Fix .ipp files ...
   au BufNewFile,BufRead *.ipp   setf cpp
 
+  :" Typescript is javascript
+  au BufNewFile,BufRead *.ts   setf javascript
+
 augroup END
 
