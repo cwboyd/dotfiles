@@ -40,6 +40,8 @@ if has("gui_running")
   endif
 endif
 
+set encoding=utf-8
+
 :" Makes weird popup dialog that complains too much ;-)
 :" set verbose=1
 
