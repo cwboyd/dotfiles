@@ -9,5 +9,14 @@
     "files.associations": {
         "*.racc": "ruby",
         "*.rex": "ruby"
-      }
+    },
+    "ruby.codeCompletion": "rcodetools",
+    "ruby.intellisense": "rubyLocate",
+    "ruby.useLanguageServer": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": false,
+    "diffEditor.renderSideBySide": true,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "emmet.extensionsPath": []
 }
