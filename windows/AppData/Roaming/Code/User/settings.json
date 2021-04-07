@@ -7,8 +7,8 @@
     "editor.tabCompletion": "on",
     "files.trimTrailingWhitespace": true,
     "files.associations": {
-        "*.racc": "ruby",
-        "*.rex": "ruby"
+      "*.racc": "ruby",
+      "*.rex": "ruby"
     },
     "ruby.codeCompletion": "rcodetools",
     "ruby.intellisense": "rubyLocate",
@@ -18,5 +18,7 @@
     "diffEditor.renderSideBySide": true,
     "explorer.confirmDragAndDrop": false,
     "window.zoomLevel": 1,
-    "emmet.extensionsPath": []
+    "emmet.extensionsPath": [
+      "c:/emmet"
+    ]
 }
